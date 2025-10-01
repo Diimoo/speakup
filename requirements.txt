@@ -1,0 +1,25 @@
+# Core dependencies for speakup - Local GPU-accelerated Speech-to-Text
+# Install PyTorch with CUDA support separately using:
+# pip install torch --index-url https://download.pytorch.org/whl/cu121
+
+# STT Engine
+faster-whisper>=0.10.0
+
+# Audio processing
+sounddevice>=0.4.6
+webrtcvad>=2.0.10
+numpy>=1.24.0
+
+# Keyboard & Typing
+pynput>=1.7.6
+pyperclip>=1.8.2
+
+# Configuration
+pyyaml>=6.0.1
+
+# GUI (optional - tkinter ist in Python enthalten)
+pystray>=0.19.0
+Pillow>=10.0.0
+
+# Optional: Alternative whisper.cpp binding (uncomment if using whispercpp instead)
+# pywhispercpp>=1.0.0

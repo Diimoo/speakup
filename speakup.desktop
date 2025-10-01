@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=speakup
+Comment=Lokales GPU-beschleunigtes Speech-to-Text Tool
+Exec=/home/ahmed/Proj/speakup/run_gui.sh
+Icon=audio-input-microphone
+Terminal=false
+Categories=Audio;Utility;Accessibility;
+Keywords=speech;voice;recognition;stt;dictation;
+StartupNotify=true
