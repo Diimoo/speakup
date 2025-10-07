@@ -1,16 +1,16 @@
-hotkey: "ctrl+shift+space"
-engine: "faster-whisper"     # "whispercpp" möglich
-model: "medium"              # small/medium/large-v3
-device: "cuda"               # "auto", "cuda", "cpu"
-language: "de"               # "auto" für automatischerkennung
-insert_mode: "type"          # "type" | "clipboard"
-vad:
-  enable: true
-  aggressiveness: 2          # 0..3
-  min_speech_ms: 300
-  max_silence_ms: 800
 chunk:
-  seconds: 0.8
   overlap: 0.2
-punctuate: true
+  seconds: 0.8
+device: cuda
+engine: faster-whisper
+hotkey: ctrl+shift+space
+insert_mode: type
+language: de
 log_transcripts: false
+model: medium
+punctuate: true
+vad:
+  aggressiveness: 2
+  enable: true
+  max_silence_ms: 800
+  min_speech_ms: 300
